@@ -1,103 +1,66 @@
-🎬 IMDB SQL Analysis
+# 🎬 IMDb Movie Analytics
 
-This project is created to practice SQL using a real-world type movie dataset.
-I used IMDB-style data to understand how movies, ratings, genres, and votes can be analyzed using SQL queries.
+This project focuses on analyzing an **IMDb-style movie dataset** using SQL and Python.
+The goal is to explore trends related to movies, genres, ratings, directors, and audience votes.
 
-The main focus of this project is learning by doing, not just writing queries but understanding why a query is needed.
+This project was done mainly to **strengthen SQL and analytical thinking** using a dataset
+that is easy to understand and relatable.
 
-📌 Why I did this project
+---
 
-As someone preparing for Data Analyst roles, SQL is a core skill.
-Instead of solving only theoretical questions, I wanted to work on a dataset that feels realistic and relatable.
+## 📌 Why I did this project
 
-Movies are easy to understand, which makes it easier to focus on logic, joins, and analysis, rather than memorizing syntax.
+Movies generate a lot of structured data, which makes them perfect for practicing:
+- SQL queries
+- data filtering and aggregation
+- analytical questioning
 
-📂 About the Dataset
+Instead of solving random SQL questions, I wanted to analyze a dataset end-to-end and
+derive meaningful insights.
 
-The dataset contains movie-related information such as:
+---
 
-movie name
+## 🧠 What I worked on
 
-release year
+In this project, I analyzed:
+- rating distributions across movies
+- genre-wise trends
+- director-wise and actor-wise performance
+- relationship between ratings and number of votes
+- basic hypothesis testing on movie ratings
 
-genre
+The focus was on **logic and interpretation**, not just writing queries.
 
-IMDB rating
+---
 
-number of votes
+## 🛠 Tools Used
 
-duration
+- SQL  
+- Python  
+- Pandas  
 
-The data is structured in tables so that I can practice JOINs and relational thinking.
+---
 
-🧠 What I did in this project
+## 📊 Key Insights
 
-In this project, I wrote SQL queries to:
+- Some genres consistently receive higher ratings
+- Movies with higher votes show more stable rating patterns
+- Certain directors show strong rating consistency across movies
 
-filter movies based on ratings and release year
+---
 
-find top-rated and most-voted movies
+## 🚀 Outcome
 
-analyze how ratings differ across genres
+This analysis helped me understand how **data-driven insights** can support:
+- content decisions
+- audience understanding
+- business-level planning in media platforms
 
-calculate averages using GROUP BY
+---
 
-apply conditions using WHERE and HAVING
+## 👤 Author
 
-use JOINs to combine multiple tables
+Rakesh Mahakur  
+Aspiring Data Analyst  
 
-While writing queries, I focused on writing clean and readable SQL, not just getting the output.
-
-🔍 Sample Questions I Answered
-
-Which movies have the highest IMDB ratings?
-
-Which genres have the most movies?
-
-What is the average rating for each genre?
-
-Which movies received the highest number of votes?
-
-How have movie ratings changed over the years?
-
-🛠️ Tools Used
-
-SQL
-
-MySQL / PostgreSQL-style queries
-
-Any SQL editor (MySQL Workbench / DB Browser)
-
-GitHub for version control
-
-✅ What I learned
-
-How to think in tables instead of Excel sheets
-
-When to use WHERE vs HAVING
-
-How JOINs actually work in real datasets
-
-How small changes in queries can change results
-
-Writing SQL in a way that others can easily read
-
-⚠️ Limitations
-
-Dataset is limited and used mainly for practice
-
-No visualization is included in this project
-
-🔮 What I plan to do next
-
-Add more complex queries using CTEs
-
-Practice window functions
-
-Connect SQL output with Power BI for visualization
-
-👤 About Me
-
-Rakesh Mahakur
-Aspiring Data Analyst
-Skills: SQL | Python | Power BI
+GitHub: https://github.com/rakesh-analytics-ops
